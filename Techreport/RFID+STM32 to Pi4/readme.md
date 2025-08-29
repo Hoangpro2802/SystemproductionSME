@@ -27,7 +27,7 @@ STM32F103C8T6 được lập trình để có thể giao tiếp với RFID RC522
 | Thành phần     | Thông tin            |
 |----------------|----------------------|
 | MCU            | STM32F103C8T6        |
-| Nguồn vào      | 3V                   |
+| Nguồn vào      | 3.3V                 |
 | Kết nối        | SPI,UART             |
 
 ---
@@ -55,7 +55,7 @@ STM32F103C8T6 được lập trình để có thể giao tiếp với RFID RC522
 
 ## 🔩 Hướng Dẫn Lắp Ráp
 
-- 📎 [Guild](Report Guild RFID STM32 PI4.docx)
+- 📎 [Report](ReportGuildRFIDSTM32PI4.docx)
 
 
 ---
