@@ -55,7 +55,7 @@ STM32F103C8T6 được lập trình để có thể giao tiếp với RFID RC522
 
 ## 🔩 Hướng Dẫn Lắp Ráp
 
-- 📎 [Report](ReportGuildRFIDSTM32PI4.docx)
+- 📎 [Report](report.docx)
 
 
 ---
@@ -68,7 +68,7 @@ STM32F103C8T6 được lập trình để có thể giao tiếp với RFID RC522
   
 ## 📜 Cách sử dụng
 
-- 📎 [Guild](Report Guild RFID STM32 PI4.docx)
+- 📎 [Guild](report.docx)
 
 
 ## 👐 Đóng góp
