@@ -46,11 +46,11 @@ ESP32 được lập trình để có thể kết nối và gửi dữ liệu qu
 
 - **Ngôn ngữ:** C++ (Arduino)
 - 📎 [SourceCode](maincode.c)
-- 📎 [Sourceproject](Resources/rfidsource.rar)
+
   
 ## 📜 Cách sử dụng
 
-- 📎 [Guild](report.docx)
+- 📎 [Guild](ReportESP32bluetooth.docx)
 
 
 ## 👐 Đóng góp
