@@ -11,7 +11,6 @@
 - [Hướng dẫn lắp ráp](#hướng-dẫn-lắp-ráp)
 - [Lập trình firmware](#lập-trình-firmware)
 - [Cách sử dụng](#cách-sử-dụng)
-- [Ảnh/Video demo](#ảnhvideo-demo)
 - [Đóng góp](#đóng-góp)
 - [Giấy phép](#giấy-phép)
 
