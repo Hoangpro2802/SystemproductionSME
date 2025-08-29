@@ -38,8 +38,8 @@ STM32F103C8T6 được lập trình để có thể giao tiếp với RFID RC522
 | Tên linh kiện            | Số lượng | Ghi chú                     |
 |--------------------------|----------|-----------------------------|
 | STM32F103C8T6            | 1        | Vi điều khiển chính         |
-| RFID RC522               | 1        | Truyền dữ liệu              |
-| TTL to USB CH340G        | 1        | Đèn báo nguồn               |
+| RFID RC522               | 1        | Tương tác với thẻ từ        |
+| TTL to USB CH340G        | 1        | Chuyển đổi dữ liệu          |
 
 
 
@@ -48,13 +48,10 @@ STM32F103C8T6 được lập trình để có thể giao tiếp với RFID RC522
 ## 🔧 Sơ Đồ Nguyên Lý và PCB
 
 - 📎 [Schematic (PDF)](docs/Schematic_Lora.pdf)
-- 📎 [PCB Layout (Gerber)](docs/Gerber.zip)
-- 📎 [File thiết kế (Altium)](docs/fullprojectdesign.zip)
 
 _Hình minh họa sơ đồ nguyên lý hoặc board PCB có thể nhúng ngay tại đây:_
 
 ![Schematic](docs/images/Schematic_Lora.jpg)
-![PCB](docs/images/PCB.png)
 
 
 ---
