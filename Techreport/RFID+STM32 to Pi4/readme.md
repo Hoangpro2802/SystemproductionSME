@@ -19,7 +19,7 @@
 
 ## 👋 Giới Thiệu
 
- “Hệ thống đo mức độ tiếng ồn trong khu vực đô thị” nhằm xây dựng một hệ thống giám sát tiếng ồn sử dụng mạng truyền thông LoRa với ba node cảm biến. Node 1 gồm ESP32S kết hợp cảm biến âm thanh MAX9814 để thu thập dữ liệu môi trường, xử lý và chuyển đổi thành giá trị tương đương dB. Dữ liệu sau đó được truyền không dây đến Node 2 – đóng vai trò trung chuyển – và tiếp tục gửi đến Node 3. Node 3 nhận dữ liệu, lưu vào thẻ nhớ microSD và đồng thời cập nhật lên nền tảng IoT Adafruit.io để hiển thị trực quan và lưu trữ lâu dài. Hệ thống được thiết kế nhằm phục vụ mục tiêu giáo dục và nghiên cứu, giúp sinh viên tiếp cận thực tiễn công nghệ truyền thông không dây, xử lý tín hiệu cảm biến và ứng dụng IoT. Dự án sẽ được kiểm thử thực tế trong vòng 7 ngày để đánh giá hiệu quả hoạt động và khả năng ứng dụng trong việc theo dõi, phân tích ô nhiễm tiếng ồn tại các khu vực đô thị.
+STM32F103C8T6 được lập trình để có thể giao tiếp với RFID RC522 cũng như gửi dữ liệu đến PI4 qua UART. Mỗi lần dùng thẻ từ quẹt vào RFID thì UID sẽ được gửi đến STM32 rồi gửi đến PI4. Trên PI4 sẽ kiểm tra UID đó để xác minh hoặc đăng ký.
 
 ---
 
@@ -27,10 +27,9 @@
 
 | Thành phần     | Thông tin            |
 |----------------|----------------------|
-| MCU            | ESP32S               |
-| Nguồn vào      | 5V qua USB hoặc DC   |
-| Kết nối        | WiFi, Lora           |
-| Kích thước PCB | 60mm x 70mm          |
+| MCU            | STM32F103C8T6        |
+| Nguồn vào      | 3V                   |
+| Kết nối        | SPI,UART             |
 
 ---
 
@@ -38,17 +37,10 @@
 
 | Tên linh kiện            | Số lượng | Ghi chú                     |
 |--------------------------|----------|-----------------------------|
-| ESP32S                   | 3        | Vi điều khiển chính         |
-| Module Lora Ra01         | 3        | Truyền dữ liệu              |
-| LED xanh                 | 3        | Đèn báo nguồn               |
-| MAX9814                  | 1        | Cảm biến âm thanh           |
-| Module đọc MicroSD       | 1        | Hỗ trợ ghi dữ liệu          |
-| AMS1117-3.3              | 3        | Chuyển đổi điện áp
-| Nút nhấn                 | 3        | Điều khiển thủ công         |
-| Tụ [0.1uf,10uf,470uf]    | 24       | Lọc nhiễu, là phẳng điện áp |
-| Trở [5k1,10k]            | 6        | Hạn dòng, điện trở kéo      |
-| Jack nguồn DC            | 3        | Nguồn                       |
-| Jump                     | 3        | Cắm UART                    |
+| STM32F103C8T6            | 1        | Vi điều khiển chính         |
+| RFID RC522               | 1        | Truyền dữ liệu              |
+| TTL to USB CH340G        | 1        | Đèn báo nguồn               |
+
 
 
 ---
