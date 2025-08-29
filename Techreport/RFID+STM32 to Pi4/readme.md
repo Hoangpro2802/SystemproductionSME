@@ -40,6 +40,7 @@ STM32F103C8T6 được lập trình để có thể giao tiếp với RFID RC522
 | STM32F103C8T6            | 1        | Vi điều khiển chính         |
 | RFID RC522               | 1        | Tương tác với thẻ từ        |
 | TTL to USB CH340G        | 1        | Chuyển đổi dữ liệu          |
+| PI4                      | 1        | Đích                        |
 
 
 
