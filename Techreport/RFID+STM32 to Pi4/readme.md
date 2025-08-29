@@ -55,7 +55,7 @@ STM32F103C8T6 được lập trình để có thể giao tiếp với RFID RC522
 
 ## 🔩 Hướng Dẫn Lắp Ráp
 
-- 📎 [Guild](Guild)
+- 📎 [Guild](Guild.docs)
 
 
 ---
@@ -64,11 +64,11 @@ STM32F103C8T6 được lập trình để có thể giao tiếp với RFID RC522
 
 - **Ngôn ngữ:** C++ (Arduino)
 - 📎 [SourceCode](maincode.c)
-- 📎 [Sourceproject](resources/rfidsource.rar)
+- 📎 [Sourceproject](Resources/rfidsource.rar)
   
 ## 📜 Cách sử dụng
 
-- 📎 [Guild](Guild)
+- 📎 [Guild](Guildư.docs)
 
 
 ## 👐 Đóng góp
