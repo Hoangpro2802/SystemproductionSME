@@ -1,18 +1,16 @@
-# 🔌 Hệ thống đo mức độ tiếng ồn trong khu vực đô thị-Lora Mesh
-## Người làm chính: Nguyễn Bá Việt Hoàng - B21DCDT100
-> Dự án xây dựng một hệ thống giám sát tiếng ồn sử dụng cảm biến âm thanh và mạng truyền thông LoRa. Hệ thống gồm ba node: thu thập, truyền và lưu trữ dữ liệu âm thanh môi trường. Dữ liệu được lưu trên thẻ microSD và đồng thời gửi lên nền tảng IoT Adafruit.io để hiển thị. Dự án phục vụ mục đích nghiên cứu và giáo dục, hướng đến việc ứng dụng công nghệ IoT trong giám sát ô nhiễm tiếng ồn đô thị.
+# 🔌 Kết nối RFID RC522 với STM32+ STM32 kết nối với PI4
+## Người làm: Nguyễn Bá Việt Hoàng - B21DCDT100
+> Dự án này nhằm mục đích lập trình kết nối STM32 với RFID và PI4.
 ---
 
 ## 📑 Mục Lục
 
 - [Giới thiệu](#giới-thiệu)
-- [Thông số kỹ thuật](#thông-số-kỹ-thuật)
 - [Danh sách linh kiện](#danh-sách-linh-kiện)
-- [Sơ đồ nguyên lý và PCB](#sơ-đồ-nguyên-lý-và-pcb)
+- [Sơ đồ nguyên lý](#sơ-đồ-nguyên-lý)
 - [Hướng dẫn lắp ráp](#hướng-dẫn-lắp-ráp)
 - [Lập trình firmware](#lập-trình-firmware)
 - [Cách sử dụng](#cách-sử-dụng)
-- [Kiểm thử](#kiểm-thử)
 - [Ảnh/Video demo](#ảnhvideo-demo)
 - [Đóng góp](#đóng-góp)
 - [Giấy phép](#giấy-phép)
