@@ -1,6 +1,6 @@
-# 🔌 Kết nối RFID RC522 với STM32+ STM32 kết nối với PI4
+# 🔌 Kết nối ESP32 với PI4 qua Bluetooth
 ## Người làm: Nguyễn Bá Việt Hoàng - B21DCDT100
-> Dự án này nhằm mục đích lập trình kết nối STM32 với RFID và PI4.
+> Dự án này nhằm mục đích lập trình kết nối ESP32 với PI4 qua Bluetooth.
 ---
 
 ## 📑 Mục Lục
@@ -18,7 +18,7 @@
 
 ## 👋 Giới Thiệu
 
-STM32F103C8T6 được lập trình để có thể giao tiếp với RFID RC522 cũng như gửi dữ liệu đến PI4 qua UART. Mỗi lần dùng thẻ từ quẹt vào RFID thì UID sẽ được gửi đến STM32 rồi gửi đến PI4. Trên PI4 sẽ kiểm tra UID đó để xác minh hoặc đăng ký.
+ESP32 được lập trình để có thể kết nối và gửi dữ liệu qua Bluetooth với PI4. 
 
 ---
 
