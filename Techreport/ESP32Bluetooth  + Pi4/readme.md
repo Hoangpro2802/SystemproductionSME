@@ -7,8 +7,6 @@
 
 - [Giới thiệu](#giới-thiệu)
 - [Danh sách linh kiện](#danh-sách-linh-kiện)
-- [Sơ đồ nguyên lý](#sơ-đồ-nguyên-lý)
-- [Hướng dẫn lắp ráp](#hướng-dẫn-lắp-ráp)
 - [Lập trình firmware](#lập-trình-firmware)
 - [Cách sử dụng](#cách-sử-dụng)
 - [Đóng góp](#đóng-góp)
@@ -18,7 +16,7 @@
 
 ## 👋 Giới Thiệu
 
-ESP32 được lập trình để có thể kết nối và gửi dữ liệu qua Bluetooth với PI4. 
+ESP32 được lập trình để có thể kết nối và gửi dữ liệu qua Bluetooth với PI4. Nó sẽ mô phỏng các dữ liệu rung động giả để gửi cho Pi4. Pi4 được chạy các đoạn script để nhận và xử lý các dữ liệu này.
 
 ---
 
@@ -26,9 +24,9 @@ ESP32 được lập trình để có thể kết nối và gửi dữ liệu qu
 
 | Thành phần     | Thông tin            |
 |----------------|----------------------|
-| MCU            | STM32F103C8T6        |
-| Nguồn vào      | 3.3V                 |
-| Kết nối        | SPI,UART             |
+| MCU            | ESP32                |
+| Nguồn vào      | 5V                   |
+| Kết nối        | Bluetooth            |
 
 ---
 
@@ -36,29 +34,13 @@ ESP32 được lập trình để có thể kết nối và gửi dữ liệu qu
 
 | Tên linh kiện            | Số lượng | Ghi chú                     |
 |--------------------------|----------|-----------------------------|
-| STM32F103C8T6            | 1        | Vi điều khiển chính         |
-| RFID RC522               | 1        | Tương tác với thẻ từ        |
-| TTL to USB CH340G        | 1        | Chuyển đổi dữ liệu          |
-| PI4                      | 1        | Đích                        |
+| ESP32                    | 1        | Vi điều khiển chính         |
+| PI4                      | 1        | Nhận dữ liệu                |
 
 
 
 ---
 
-## 🔧 Sơ Đồ Nguyên Lý
-
-
-[!Schematic](Resources/schematic.png)
-
-
----
-
-## 🔩 Hướng Dẫn Lắp Ráp
-
-- 📎 [Report](report.docx)
-
-
----
 
 ## 💻 Lập Trình Firmware
 
