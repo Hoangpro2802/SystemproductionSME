@@ -48,7 +48,7 @@ STM32F103C8T6 được lập trình để có thể giao tiếp với RFID RC522
 ## 🔧 Sơ Đồ Nguyên Lý và PCB
 
 
-!Schematic](Resources/schematic.png)
+[!Schematic](Resources/schematic.png)
 
 
 ---
