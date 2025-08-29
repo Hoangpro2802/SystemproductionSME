@@ -45,7 +45,7 @@ STM32F103C8T6 được lập trình để có thể giao tiếp với RFID RC522
 
 ---
 
-## 🔧 Sơ Đồ Nguyên Lý và PCB
+## 🔧 Sơ Đồ Nguyên Lý
 
 
 [!Schematic](Resources/schematic.png)
@@ -63,7 +63,7 @@ STM32F103C8T6 được lập trình để có thể giao tiếp với RFID RC522
 ## 💻 Lập Trình Firmware
 
 - **Ngôn ngữ:** C++ (Arduino)
-- 📎 [SourceCode](Sourcecode)
+- 📎 [SourceCode](codemain.c)
 - **Cách nạp:** Sau khi đã compile thành công chương trình, bắt đầu nhấn nụt nạp trên Arduino IDE. Giữ nút boot trên board rồi đợi đến lúc IDE hiện chữ connecting...rồi nhấn và thả nút Reset.
   
 ## 📜 Cách sử dụng
