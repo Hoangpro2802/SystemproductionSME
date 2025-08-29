@@ -63,15 +63,12 @@ STM32F103C8T6 được lập trình để có thể giao tiếp với RFID RC522
 ## 💻 Lập Trình Firmware
 
 - **Ngôn ngữ:** C++ (Arduino)
-- 📎 [SourceCode](codemain.c)
-- **Cách nạp:** Sau khi đã compile thành công chương trình, bắt đầu nhấn nụt nạp trên Arduino IDE. Giữ nút boot trên board rồi đợi đến lúc IDE hiện chữ connecting...rồi nhấn và thả nút Reset.
+- 📎 [SourceCode](maincode.c)
+- 📎 [Sourceproject](resources/rfidsource.rar)
   
 ## 📜 Cách sử dụng
 
-- Sau khi đã nạp xong firmware, ta sẽ cấp nguồn 5V cho cả 3 node.
-- Sau khi cấp nguồn thì nhấn nút EN/Reset trên cả 3 mạch.
-- Muốn xem log truyền tin giữa các node thì có thể cấp nguồn bằng UART.
-- Kiểm tra trên web Adafruit.io nếu đã nhận được dữ liệu đẩy lên thì mạch đã hoạt động đúng.
+- 📎 [Guild](Guild)
 
 
 ## 👐 Đóng góp
